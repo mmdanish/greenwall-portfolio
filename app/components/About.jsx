@@ -53,13 +53,28 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2xl font-Ovo">
-            With a fresh BSc Computer Science degree from College of Applied
-            Science (IHRD), my journey has led me to Softroniics, where as an
-            intern.
+          <p className="mb-5 max-w-2xl font-Ovo">
+            Welcome to Greenwall Development & Cloud Solutions, where innovation
+            meets reliability. We are a forward-thinking software company
+            specializing in web development and cloud deployment to help
+            businesses thrive in the digital era.
           </p>
 
-          <motion.ul
+          <p className="mb-5 max-w-2xl font-Ovo">
+            Our mission is to design, build, and deploy solutions that not only
+            meet the needs of today but also anticipate the demands of tomorrow.
+            Whether it's crafting stunning, responsive websites or ensuring
+            seamless cloud integration, we focus on delivering cutting-edge
+            solutions tailored to your business goals.
+          </p>
+
+          <p className="mb-10 max-w-2xl font-Ovo">
+            At Greenwall, we are driven by our passion for technology and our
+            commitment to excellence. Let us help you build a stronger digital
+            foundation and unlock new possibilities for growth.
+          </p>
+
+          {/* <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
@@ -84,9 +99,9 @@ const About = ({ isDarkMode }) => {
                 </p>
               </motion.li>
             ))}
-          </motion.ul>
+          </motion.ul> */}
 
-          <motion.h4
+          {/* <motion.h4
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.3 }}
@@ -110,7 +125,7 @@ const About = ({ isDarkMode }) => {
                 <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
               </motion.li>
             ))}
-          </motion.ul>
+          </motion.ul> */}
         </motion.div>
       </motion.div>
     </motion.div>

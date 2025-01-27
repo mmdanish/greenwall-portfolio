@@ -36,9 +36,9 @@ const Services = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
-        I am a frontend developer with a passion for creating visually appealing
-        and user-friendly interfaces. I have experience with HTML, CSS and
-        multiple companies like Microsoft, Apple and Tesla.
+        At Greenwall Development & Cloud Solutions, we offer a range of services
+        designed to empower your business with the latest technology and
+        innovative solutions
       </motion.p>
 
       <motion.div
